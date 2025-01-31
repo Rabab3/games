@@ -7,6 +7,7 @@ L'objectif est d'explorer la programmation, d'améliorer mes compétences et de 
 
 # 🕹️ Jeux disponibles
 Hangman 🎭 : Un jeu du pendu avec interface graphique en Tkinter.
+
 D'autres jeux seront ajoutés progressivement !
 
 # 🛠️ Technologies utilisées
