@@ -10,10 +10,5 @@ Hangman 🎭 : Un jeu du pendu avec interface graphique en Tkinter.
 
 D'autres jeux seront ajoutés progressivement !
 
-# 🛠️ Technologies utilisées
-- Python 🐍
-- Tkinter (pour les interfaces graphiques)
-- Git & GitHub (pour la gestion de version)
-
 # ✨ Améliorations & Contributions
 Si tu as des idées pour améliorer ces jeux ou en ajouter d'autres, n'hésite pas à forker le projet et proposer des mises à jour !
