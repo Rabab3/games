@@ -1,0 +1,62 @@
+# Space Invaders Game
+Jeu classique Space Invaders développé avec **Pygame**.
+
+## 🎮 Description
+Un jeu de tir inspiré du célèbre jeu Space Invaders. Le joueur contrôle un vaisseau spatial pour détruire des ennemis tout en évitant les bombes et en collectant des power-ups. Le score augmente en fonction du nombre d'ennemis détruits.
+
+### Fonctionnalités :
+- **Déplacement du joueur** : Utilisation des flèches gauche et droite pour déplacer le vaisseau.
+- **Tirs** : Appuyez sur la barre d'espace pour tirer des projectiles.
+- **Ennemis** : Des ennemis apparaissent et se déplacent en bas de l'écran.
+- **Power-ups** : Collectez des power-ups pour améliorer la vitesse du joueur.
+- **Bombe** : Les ennemis génèrent des bombes qui peuvent détruire le joueur.
+
+## 🛠️ Technologies utilisées
+- **Python 3.x**
+- **Pygame** : Bibliothèque utilisée pour développer le jeu.
+- **Fichiers image** : Vaisseau, ennemis, projectiles, power-ups, et bombes.
+
+## 📊 Fonctionnement du jeu
+1. Le joueur contrôle un vaisseau qui se déplace sur l'écran.
+2. Appuyez sur **Espace** pour tirer des projectiles et détruire les ennemis.
+3. Des ennemis se déplacent de gauche à droite, générant des bombes aléatoires.
+4. Des power-ups tombent parfois du ciel pour améliorer la vitesse du vaisseau.
+5. Le joueur perd la partie si une bombe touche son vaisseau.
+6. Le jeu se termine lorsque toutes les vies du joueur sont perdues, affichant le score et le meilleur score enregistré.
+
+## 🧑‍💻 Fonctionnalités supplémentaires
+- **Score** : Le score augmente à chaque ennemi détruit.
+- **Highscore** : Le meilleur score est sauvegardé dans un fichier texte et reste enregistré entre les sessions de jeu.
+- **Game Over** : Lorsqu'une bombe touche le joueur, la partie se termine et le jeu affiche un écran de fin avec le score final.
+
+## 📂 Fichiers du projet
+- **player.png** : Image du vaisseau du joueur.
+- **enemy.png** : Image des ennemis.
+- **bullet.png** : Image des projectiles tirés par le joueur.
+- **powerup.png** : Image des power-ups.
+- **bomb.png** : Image des bombes générées par les ennemis.
+- **highscore.txt** : Fichier contenant le meilleur score.
+
+## 📄 Installation
+1. Clonez le repository : 
+    ```bash
+    git clone https://github.com/Rabab3/games.git
+    ```
+2. Installez Pygame :
+    ```bash
+    pip install pygame
+    ```
+3. Lancez le jeu en exécutant le fichier `main.py`.
+
+## 🎯 Objectif du jeu
+Le but du jeu est de **détruire autant d'ennemis que possible** tout en évitant les bombes et en collectant des power-ups. Le joueur doit essayer de battre son propre meilleur score à chaque session.
+
+## 📈 Améliorations possibles
+- Ajouter de nouveaux types d'ennemis avec des comportements différents.
+- Ajouter de nouveaux types de power-ups avec des effets variés (par exemple, boucliers, tirs multiples, etc.).
+- Implémenter des niveaux de difficulté croissante.
+
+---
+
+## 👤 Auteur : **Rabab**
+## 📝 Licence : **MIT License**
